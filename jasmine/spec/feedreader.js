@@ -72,10 +72,10 @@ $(function() {
             var menuIcon = $('.menu-icon-link');
             
 
-            $('menuIcon').click();
+            menuIcon.click();
             expect($('body').hasClass('menu-hidden')).toBe(false);
 
-            $('menuIcon').click();
+            menuIcon.click();
             expect($('body').hasClass('menu-hidden')).toBe(true);
             
         });    
