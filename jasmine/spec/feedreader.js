@@ -27,15 +27,15 @@ $(function() {
          */
         it('and names and URL exist and are defined', function() {
 
-            for(var i = 0; i < allFeeds.length; i++) {
+            for(i = 0; i < allFeeds.length; i++) {
                 expect(allFeeds[i].name).toBeDefined();
                 expect(allFeeds[i].name.length).not.toBe(0);
-            };
+            }
 
-            for(var i = 0; i < allFeeds.length; i++) {
+            for(i = 0; i < allFeeds.length; i++) {
                 expect(allFeeds[i].url).toBeDefined();
                 expect(allFeeds[i].url.length).not.toBe(0);
-            };
+            }
         });
     });
 
